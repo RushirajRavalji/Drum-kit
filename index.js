@@ -163,6 +163,10 @@ function makeSound(key) {
       var audio = new Audio('sounds/tom-3.mp3');
       audio.play();
          break;
+                   case "l":
+      var audio = new Audio('sounds/tom-4.mp3');
+      audio.play();
+         break;
     
      default:
         
